@@ -1,7 +1,9 @@
 package com.example.iterable;
 
+import java.util.List;
+
 public interface Container<T> extends Iterable<T> {
     boolean isEmpty();
     int size();
-    void add(T item);
+    boolean add(T item);
 }
